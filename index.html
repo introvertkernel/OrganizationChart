@@ -1,32 +1,47 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <title>OrgChart</title>
-      <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+  <header>
+    <div id="navbar">
+      <h1>OrgChart</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Form</a></li>
+          <li><a href="#">View</a></li>
+        </ul>
+      </nav>
 
-<link href="//db.onlinewebfonts.com/c/a4e256ed67403c6ad5d43937ed48a77b?family=Core+Sans+N+W01+35+Light" rel="stylesheet" type="text/css"/>
-<link rel="main" href="main.css" type="text/css">
-<div class="body-content">
-  <div class="module">
-    <h1>Enter Employee details
-    </h1>
-    <form class="form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
-      <div class="alert alert-error"></div>
-      <input type="text" placeholder="Employee Name" name="emp_name" required />
-      <input type="text" placeholder="Employee Designation" name="emp_designation" required />
-      <input type="text" placeholder="Reporting Manager" name="report_manager" required />
-    
-      <input type="submit" value="Submit" name="submit" class="btn" />
-    </form>
+    </div>
+  </header>
+
+  <link href="//db.onlinewebfonts.com/c/a4e256ed67403c6ad5d43937ed48a77b?family=Core+Sans+N+W01+35+Light" rel="stylesheet"
+    type="text/css" />
+  <link rel="main" href="main.css" type="text/css">
+  <div class="body-content">
+    <div class="module">
+      <h1>Enter Employee details
+      </h1>
+      <form class="form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
+        <div class="alert alert-error"></div>
+        <input type="text" placeholder="Employee Name" name="emp_name" required />
+        <input type="text" placeholder="Employee Designation" name="emp_designation" required />
+        <input type="text" placeholder="Reporting Manager" name="report_manager" required />
+
+        <input type="submit" value="Submit" name="submit" class="btn" />
+      </form>
+    </div>
   </div>
-</div>
-  
-  
+
+
 
 </body>
 

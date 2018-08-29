@@ -11,7 +11,37 @@
     display: block;
   }
   
-  
+  header{
+    background: #07276b;
+    margin: 0 auto;
+    padding: 0 1em 0 1em;
+    width: 100%;
+    top: 0;
+    position: fixed;
+  }
+  header h1 {
+    float: left;
+    font-family: helvetica, arial, sans-serif;
+  }
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+  header li {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 2em;
+   }
+   
+   header li a:hover {
+    color: rgb(255, 0, 0);
+   }
+   
+   header ul {
+    float: right;
+    list-style-type: none;
+    padding-top: 2em;
+   }
   
   .module{
     position:relative;
@@ -26,7 +56,7 @@
     color: #fff;
     background-color:#f0f0f0;
     font-family:helvetica;
-    background-color: #00608d
+    background-color: #07276b
     /* background:url('http://clevertechie.com/img/bnet-bg.jpg') #0f2439 no-repeat center top; */
   }
   

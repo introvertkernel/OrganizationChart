@@ -1,3 +1,4 @@
+</html>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,8 +26,16 @@
   <link rel="main" href="main.css" type="text/css">
   <div class="body-content">
     <div class="module">
-      <h1 id="htag">Select View</h1>
-      
+      <h1>Enter Employee details
+      </h1>
+      <form class="form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
+        <div class="alert alert-error"></div>
+        <input type="text" placeholder="Employee Name" name="emp_name" required />
+        <input type="text" placeholder="Employee Designation" name="emp_designation" required />
+        <input type="text" placeholder="Reporting Manager" name="report_manager" required />
+
+        <input type="submit" value="Submit" name="submit" class="btn" />
+      </form>
     </div>
   </div>
 

@@ -34,10 +34,10 @@
                 $output .= '<li>'.$row["emp_name"].'</li>';  
            }  
       }  
-      else  
-      {  
-           $output .= '<li>Country Not Found</li>';  
-      }  
+    //   else  
+    //   {  
+    //        $output .= '<li>Manager Name Not Found</li>';  
+    //   }  
       $output .= '</ul>';  
       echo $output; 
     //   $connect->close(); 

@@ -14,8 +14,8 @@
       <h1>OrgChart</h1>
       <nav>
         <ul>
-          <li><a href="index.html">Form</a></li>
-          <li><a href="view.html">View</a></li>
+          <li><a href="index.php">Form</a></li>
+          <li><a href="view.php">View</a></li>
         </ul>
       </nav>
 
@@ -26,6 +26,10 @@
   <div class="body-content">
     <div class="module">
       <h1 id="htag">Select View</h1>
+      <div>
+      <a href="table.php" class="btn btn-block btn-lg btn-primary" style="line-height: 3.5em;">Table View</a>
+      <a href="list.php" class="btn btn-block btn-lg btn-primary" style="line-height: 3.5em;">Table View</a>
+      </div>
       
     </div>
   </div>

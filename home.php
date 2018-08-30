@@ -1,6 +1,6 @@
 <?php
   include 'connection.php';
- ?>
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,28 +20,27 @@
 <br/>
 <br/>
 <br/>
-  <h2>Ajax Update</h2>
-  <p>Update user info with Jquery Ajax:</p>            
+  <h2>Tableview</h2>
   <table class="table">
     <thead>
       <tr>
-        <th>EMp ID</th>
-        <th>NAme</th>
+        <th>Emp ID</th>
+        <th>Name</th>
         <th>Designation</th>
         <th>Reporting Manager</th>
-        <th>Action</th>
+        <!-- <th>Action</th> -->
       </tr>
     </thead>
     <tbody>
       <?php
           $table  = mysqli_query($connection ,'SELECT * FROM Employee');
           while($row  = mysqli_fetch_array($table)){ ?>
-              <tr id="<?php echo $row['emp_id']; ?>">
+              <tr id="<?php echo $row['emp_id'];?>">
                 <td data-target="emp_id"><?php echo $row['emp_id']; ?></td>
-                <td data-target="Name"><?php echo $row['emp_name']; ?></td>
-                <td data-target="Designation"><?php echo $row['emp_designation']; ?></td>
-                <td data-target="Report Manager"><?php echo $row['report_manager_id']; ?></td>
-                <td><a href="#" data-role="update" data-id="<?php echo $row['emp_id'] ;?>">Update</a></td>
+                <td data-target="emp_name"><?php echo $row['emp_name']; ?></td>
+                <td data-target="emp_designation"><?php echo $row['emp_designation']; ?></td>
+                <td data-target="report_manager_id"><?php echo $row['report_manager_id']; ?></td>
+                <!-- <td><a href="#" data-role="update" data-id="<?php echo $row['emp_id'] ;?>">Update</a></td> -->
               </tr>
          <?php }
        ?>
@@ -60,7 +59,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Modal Header</h4>
+            <h4 class="modal-title">Update</h4>
           </div>
           <div class="modal-body">
               <div class="form-group">
@@ -101,7 +100,9 @@
             var emp_designation  = $('#'+emp_id).children('td[data-target=emp_designation]').text();
             var report_manager_id  = $('#'+emp_id).children('td[data-target=report_manager_id]').text();
 
-            // $('#emp_id').val(emp_id);
+            alert("empID  "+emp_id+"  "+"empname  "+emp_name+"  "+"empdesig  "+emp_designation);
+
+            //$('#emp_id').val(emp_id);
             $('#emp_name').val(emp_name);
             $('#emp_designation').val(emp_designation);
             $('#report_manager_id').val(report_manager_id);

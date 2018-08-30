@@ -4,10 +4,10 @@ $connection =	mysqli_connect('localhost' , 'root' ,'' ,'EmpData');
 
 if(isset($_POST['emp_id'])){
 	
-	$emp_id = $_POST['emp_id'];
+	// $emp_id = $_POST['emp_id'];
 	$emp_name = $_POST['emp_name'];
 	$emp_designation = $_POST['emp_designation'];
-	$report_manager_id = $_POST['emp_id'];
+	$report_manager_id = $_POST['report_manager_id'];
 
 	//  query to update data 
 	 

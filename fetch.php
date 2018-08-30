@@ -6,6 +6,16 @@ $query = "
 ";
 $result = mysqli_query($connect, $query);
 //$output = array();
+//
+$json = array();
+
+// while($row=mysqli_fetch_row($result)) {
+//     $json[] = $row;
+//     echo $json;
+// }
+
+
+//
 while($row = mysqli_fetch_array($result))
 {
  $sub_data["id"] = $row["emp_id"];

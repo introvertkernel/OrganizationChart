@@ -26,10 +26,17 @@
   <div class="body-content">
     <div class="module">
       <h1 id="htag">Select View</h1>
-      <div>
-      <a href="table.php" class="btn btn-block btn-lg btn-primary" style="line-height: 3.5em;">Table View</a>
-      <a href="list.php" class="btn btn-block btn-lg btn-primary" style="line-height: 3.5em;">Table View</a>
-      </div>
+      <!-- <div>
+      
+      <button type="button" class="btn btn-info"><a href="table.php" class="btn btn-info" role="button">TableView</a></button>
+      
+      <button type="button" class="btn btn-info"><a href="list.php" class="btn btn-info" role="button">ListView</a></button>
+      </div> -->
+      
+    <div class="container">
+    <a class="btn btn-primary" href="table.php" role="button">Link</a>
+    <a class="btn btn-primary" href="list.php" role="button">Link</a>
+  </div>
       
     </div>
   </div>

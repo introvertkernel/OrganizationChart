@@ -15,102 +15,38 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body><div>
+<body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a href="#" class="navbar-brand text-center mx-auto">OrgChart</a>
-        <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <a href="#" class="navbar-brand text-center">OrgChart</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse " id="navbarMenu">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">View</a>
-                </li>
-            </ul>
-        </div> -->
-
-
-    
-    </nav></div>
-    
-        <!-- <div class="container">
-        <div class="row equal">
-            <div class="col-md-6 col-sm-6">
-                <div class="footer-widget">
-                    <br>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>          
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-                <div class="footer-widget">
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>
-                    <p>lorem ipsum</p>          
-                </div>
+            <div class="navbar justify-content-end">
+                <ul class="nav navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a href="index.php" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="vie.php" class="nav-link">View</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div> -->
+    </nav>
     
-    
-    
-    
-    
-    <!--  -->
-    <!-- <div class="container-fluid h-100">
-    <div class="row h-100">
-        <div class="col-sm-6 invisible col-2">hidden spacer</div> -->
-            <!-- <div class="col rightside offset-2 offset-sm-6 py-2">
-                <h4>View</h4>
-                <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
-                    raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
-                    Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
-
-                <p>Ethical Kickstarter PBR asymmetrical lo-fi. oreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
-                    readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
-                    forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
-                    
-                <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
-                    raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
-                    Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
-
-            </div>
-        </div>
-    </div>
-    <div class="row h-100"> -->
-        <!-- <div class="col-sm-6 invisible col-2">hidden spacer</div> -->
-            <!-- <div class="col leftside offset-2 offset-sm-6 py-1">
-                <h4>View</h4>
-                <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
-                    raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
-                    Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
-
-                <p>Ethical Kickstarter PBR asymmetrical lo-fi. oreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
-                    readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
-                    forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
-                    
-                <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
-                    raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
-                    Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
-
-            </div>
-        </div>
-    </div> -->
-    <!--  -->
+       
     <div class="container-fluid h-100">
         <!-- <div class="w-100"></div>  comments -->
         <div class="row row-full">
-            <div class="col-sm-6 col-md-6 pull-right">
+            <div class="col-sm-6 col-md-6 pull-right mt-5 border border-secondary rounded pr-1 pl-1">
                 <div class="leftside">
-                    <br>
-                    <h2 class="offset-2 ">Form</h2>
-                    <br>
-                    <h4 class="offset-2">Enter Employee details
-                    </h4>
+                    <!-- <h2 class="text-center text-primary mt-5 "><button type="button" class="btn btn-primary btn-lg btn-justified" disabled>Form</button></h2> -->
+                    <button type="button" class="btn btn-primary btn-lg btn-block btn-justified mt-3" disabled>Form</button>
+                    <!-- <br>
+                    <h4 class="offset-2">Enter Employee details -->
+                    <!-- </h4> -->
                     <!-- <form class="form-group main-form needs-validation" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
                         <div class="alert alert-error"></div>
                         <input type="text" placeholder="Employee Name" name="emp_name" required />
@@ -119,23 +55,23 @@
                         <div id="managerList" class="form-control input-lg"> </div>
                         <input type="submit" value="Submit" name="submit" class="btn" /> -->
 
-                    <form class="main-form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
-                        <div class="row text-center alert alert-error       ">
+                    <form class="main-form text-center" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
+                        <div class="row justify-content-center text-center alert alert-error       ">
                             <div class="col-sm-8">
                                 <div class="form-group">
                                     <div class="alert alert-error"></div>
-                                    <input type="text" placeholder="Employee Name" name="emp_name" required />
+                                    <input class="form-control" type="text" placeholder="Employee Name" name="emp_name" required />
                                     
                                 </div>
                             </div>
                             <div class="col-sm-8">
                                 <div class="form-group">
-                                    <input type="text" placeholder="Employee Designation" name="emp_designation" required />
+                                    <input class="form-control" type="text" placeholder="Employee Designation" name="emp_designation" required />
                                 </div>
                             </div>
                             <div class="col-sm-8">
                                 <div class="form-group">
-                                    <input type="text" placeholder="Reporting Manager" name="report_manager" id="report_manager" autocomplete="off" required />
+                                    <input class="form-control" type="text" placeholder="Reporting Manager" name="report_manager" id="report_manager" autocomplete="off" required />
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -146,27 +82,32 @@
                             </div>
                             <div class="col-sm-8 leftside">
                                 <div class="form-group">
-                                    <input type="submit" value="Submit" name="submit" class="btn" />
+                                    <input class="form-control btn-light" type="submit" value="Submit" name="submit" class="btn" />
                                 </div>
                             </div>
                         </div>    
                     </form>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 pull-right">
-                <div class="rightside">
-                    <br>
-                    <h2 class="offset-2">View</h2>
-                    <!-- <div class="container">
-                            <a class="btn btn-primary" href="table.php" role="button">Link</a>
-                            <a class="btn btn-primary" href="list.php" role="button">Link</a>
-                    </div> -->
-                    <br><br>
-                    <div class="offset-2">
-                        <button type="button" class="btn btn-outline-primary btn-lg">Large button</button>
-                    </div>
+            
+            <div class="col-sm-6 col-md-6 pull-right mt-5 border border-secondary rounded pl-1 pr-1">
+                    <div class="">
+                        <!-- <br> -->
+                        <!-- <h2 class="text-center text-primary offset-2 mt-5 mb-5"></h2> -->
+                        <button type="button" class="btn btn-primary btn-lg btn-block btn-justified mt-3 mb-5" disabled>View</button>
+                        <!-- <div class="container">
+                                <a class="btn btn-primary" href="table.php" role="button">Link</a>
+                                <a class="btn btn-primary" href="list.php" role="button">Link</a>
+                        </div> -->
+                        <!-- <br><br> -->
+                        <div class="justify-content-center">
+                            <a class="btn btn-light btn-lg mb-1 mt-2 btn-block btn-justified" href="table.php" role="button">TableView</a>
+                            <br>
+                            <a class="btn btn-light btn-lg mt-1 btn-block btn-justified" href="list.php" role="button">ListView</a>
 
-                </div>
+                        </div>
+
+                    </div>
           
             </div>
         </div>

@@ -17,7 +17,7 @@
 <nav class="navbar navbar-inverse pt-5 pb-5" id="navid">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">OrgChart</a>
+      <a class="navbar-brand" href="index.php">OrgChart</a>
     </div>
       <ul class="nav navbar-nav">
         <li><a href="index.php">Home</a></li>

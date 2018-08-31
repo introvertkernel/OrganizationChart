@@ -17,7 +17,7 @@
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a href="#" class="navbar-brand text-center">OrgChart</a>
+        <a href="index.php" class="navbar-brand text-center">OrgChart</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>

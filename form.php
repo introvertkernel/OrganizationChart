@@ -20,10 +20,10 @@ else {
 
         if ($connect->query($sql)) {
             # code...
-            header("location:error.php");
+            header("location:success.php");
           }
           else {
-            echo "error";
+            header("location:server.php");
           }
 
     } else {

@@ -10,11 +10,11 @@
 
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a href="index.php" class="navbar-brand text-center">OrgChart</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
         
-        <div class="collapse navbar-collapse " id="navbarMenu">
+        <!-- <div class="collapse navbar-collapse " id="navbarMenu"> -->
             <div class="navbar justify-content-end">
                 <ul class="nav navbar-nav justify-content-end">
                     <li class="nav-item">
@@ -25,7 +25,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        <!-- </div> -->
     </nav>
 
     <div class="container-fluid h-100">
@@ -85,6 +85,9 @@
         </div>
     
     </div>
+
+    </body>
+</html>
 
 <script>
 $(document).ready(function(){

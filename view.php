@@ -29,7 +29,7 @@
                         <a href="index.php" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="vie.php" class="nav-link">View</a>
+                        <a href="view.php" class="nav-link">View</a>
                     </li>
                 </ul>
             </div>
@@ -42,7 +42,7 @@
                     <div class="">
                         <!-- <br> -->
                         <!-- <h2 class="text-center text-primary offset-2 mt-5 mb-5"></h2> -->
-                        <button type="button" class="btn btn-primary btn-lg btn-block btn-justified mt-3 mb-5" disabled>View</button>
+                        <button type="button" class="btn btn-primary btn-lg btn-block btn-justified mt-3 mb-5" disabled>Views</button>
                         <!-- <div class="container">
                                 <a class="btn btn-primary" href="table.php" role="button">Link</a>
                                 <a class="btn btn-primary" href="list.php" role="button">Link</a>
@@ -51,7 +51,7 @@
                         <div class="justify-content-center">
                             <a class="btn btn-light btn-lg mb-1 mt-2 btn-block btn-justified" href="table.php" role="button">TableView</a>
                             <br>
-                            <a class="btn btn-light btn-lg mt-1 btn-block btn-justified" href="list.php" role="button">ListView</a>
+                            <a class="btn btn-light btn-lg mt-1 btn-block btn-justified " href="list.php" role="button">ListView</a>
 
                         </div>
 

@@ -40,7 +40,7 @@
     <div class="container-fluid h-100">
         <!-- <div class="w-100"></div>  comments -->
         <div class="row row-full">
-            <div class="col-sm-6 col-md-6 pull-right mt-5 border border-secondary rounded pr-1 pl-1">
+            <div class="col-sm-6 col-md-6 ml-auto mr-auto mt-5 pr-1 pl-1">
                 <div class="leftside">
                     <!-- <h2 class="text-center text-primary mt-5 "><button type="button" class="btn btn-primary btn-lg btn-justified" disabled>Form</button></h2> -->
                     <button type="button" class="btn btn-primary btn-lg btn-block btn-justified mt-3" disabled>Form</button>
@@ -82,7 +82,7 @@
                             </div>
                             <div class="col-sm-8 leftside">
                                 <div class="form-group">
-                                    <input class="form-control btn-light" type="submit" value="Submit" name="submit" class="btn" />
+                                    <input class="form-control btn-light border border-secondary rounded" type="submit" value="Submit" name="submit" class="btn" />
                                 </div>
                             </div>
                         </div>    
@@ -90,26 +90,7 @@
                 </div>
             </div>
             
-            <div class="col-sm-6 col-md-6 pull-right mt-5 border border-secondary rounded pl-1 pr-1">
-                    <div class="">
-                        <!-- <br> -->
-                        <!-- <h2 class="text-center text-primary offset-2 mt-5 mb-5"></h2> -->
-                        <button type="button" class="btn btn-primary btn-lg btn-block btn-justified mt-3 mb-5" disabled>View</button>
-                        <!-- <div class="container">
-                                <a class="btn btn-primary" href="table.php" role="button">Link</a>
-                                <a class="btn btn-primary" href="list.php" role="button">Link</a>
-                        </div> -->
-                        <!-- <br><br> -->
-                        <div class="justify-content-center">
-                            <a class="btn btn-light btn-lg mb-1 mt-2 btn-block btn-justified" href="table.php" role="button">TableView</a>
-                            <br>
-                            <a class="btn btn-light btn-lg mt-1 btn-block btn-justified" href="list.php" role="button">ListView</a>
-
-                        </div>
-
-                    </div>
-          
-            </div>
+            
         </div>
     
     </div>

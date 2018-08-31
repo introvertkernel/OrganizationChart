@@ -54,6 +54,9 @@ $(document).ready(function(){
   .navbar { 
     padding:10px;
     background-color:#212529;!important
-  
-   }
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+
+  }
 </style>

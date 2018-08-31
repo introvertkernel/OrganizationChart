@@ -19,7 +19,6 @@ else {
         $sql = "INSERT INTO Employee (emp_name,emp_designation,report_manager_id) VALUES('$emp_name','$emp_designation','$report_manager')";
 
         if ($connect->query($sql)) {
-            # code...
             header("location:success.php");
           }
           else {

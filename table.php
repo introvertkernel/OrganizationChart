@@ -41,10 +41,8 @@
             <div class= "table justify-content-center mt-5">
                     
                     <?php
-                    $connection = mysqli_connect('localhost','root','','EmpData'); //The Blank string is the password
-                    // mysql_select_db('hrmwaitrose');
-            
-                    $query = "SELECT * FROM Employee"; //You don't need a ; like you do in SQL
+                    $connection = mysqli_connect('localhost','root','','EmpData');            
+                    $query = "SELECT * FROM Employee";
                     $result = mysqli_query($connection, $query);
             
                     echo "<table class='table'>
@@ -53,13 +51,13 @@
                             <th>Emp Name</th>
                             <th>Designation</th>
                             <th>Reporting Manager</th>
-                            </tr>"; // start a table tag in the HTML
+                            </tr>"; 
             
-                    while($row = mysqli_fetch_array($result)){   //Creates a loop to loop through results
+                    while($row = mysqli_fetch_array($result)){ 
                     echo "<tr><td>" . $row['emp_id'] . "</td><td>" . $row['emp_name'] . "</td><td>" . $row['emp_designation'] . "</td><td>" . $row['report_manager_id'] . "</td>    </tr>";  //$row['index'] the index here is a field name
                     }
             
-                    echo "</table>"; //Close the table in HTML
+                    echo "</table>";
             
                     $connection->close();
                     ?>

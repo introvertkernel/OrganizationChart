@@ -1,0 +1,26 @@
+    <form action="form.php" class="main-form needs-validation" method="post" enctype="multipart/form-data novalidate >
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <div class="alert alert-error"></div>
+                    <input type="text" placeholder="Employee Name" name="emp_name" required />
+                    
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <input type="text" placeholder="Employee Designation" name="emp_designation" required />
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <input type="text" placeholder="Reporting Manager" name="report_manager" id="report_manager" class="container form-control input-lg" autocomplete="off" required />
+                    <div id="managerList" class="form-control input-lg"> </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <input type="submit" value="Submit" name="submit" class="btn" />
+                </div>
+            </div>
+        </div>

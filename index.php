@@ -29,7 +29,7 @@
                         <a href="index.php" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="vie.php" class="nav-link">View</a>
+                        <a href="view.php" class="nav-link">View</a>
                     </li>
                 </ul>
             </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>OrgChart</title>
+  <title>Webslesson Tutorial | Make Treeview using Bootstrap Treeview Ajax JQuery with PHP</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>    
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
   <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.js"></script>
@@ -12,23 +12,9 @@
   </style>
  </head>
  <body>
-
-
-<nav class="navbar navbar-inverse pt-5 pb-5" id="navid">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="index.php">OrgChart</a>
-    </div>
-      <ul class="nav navbar-nav">
-        <li><a href="index.php">Home</a></li>
-        <li><a href="view.php">View</a></li>
-      </ul>
-  </div>
-</nav>
-
   <br /><br />
-  <div class="container">
-   <h2 align="center">ListView</h2>
+  <div class="container" style="width:500px;">
+   <h2 align="center">Make Treeview using Bootstrap Treeview Ajax JQuery with PHP</h2>
    <br /><br />
    <div id="treeview"></div>
   </div>
@@ -49,14 +35,3 @@ $(document).ready(function(){
  
 });
 </script>
-
-<style>
-  .navbar { 
-    padding:10px;
-    background-color:#212529;!important
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-
-  }
-</style>

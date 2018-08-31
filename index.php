@@ -51,18 +51,18 @@
                             <div class="col-sm-8">
                                 <div class="form-group">
                                     <div class="alert alert-error"></div>
-                                    <input class="form-control" type="text" placeholder="Employee Name" name="emp_name" required />
+                                    <input class="form-control" type="text" placeholder="Enter Employee Name" name="emp_name" required />
                                     
                                 </div>
                             </div>
                             <div class="col-sm-8">
                                 <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Employee Designation" name="emp_designation" required />
+                                    <input class="form-control" type="text" placeholder="Enter Employee Designation" name="emp_designation" required />
                                 </div>
                             </div>
                             <div class="col-sm-8">
                                 <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Reporting Manager" name="report_manager" id="report_manager" autocomplete="off" required />
+                                    <input class="form-control" type="text" placeholder="Select Reporting Manager from Suggestions" name="report_manager" id="report_manager" autocomplete="off" required />
                                 </div>
                             </div>
                             <div class="col-sm-8">
